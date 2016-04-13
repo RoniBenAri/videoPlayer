@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <title>Video Player</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
+
+    <script src="views/image-view/img-view.js"></script>
+    <script src="views/video-view/video-view.js"></script>
+    <script src="views/views.js"></script>
+    <script src="services/service.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div ng-controller="mainCtrl">
+        <div ui-view></div>
+    </div>
+</body>
+</html>
